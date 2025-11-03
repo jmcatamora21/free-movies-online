@@ -402,6 +402,7 @@ name: 'horror'}, {genre: 'Korean', name: 'korean'}, {genre: 'Sci-Fi', name:
       
               event.stopImmediatePropagation();
               let genre = $(this).data("genre");
+              alert(window.location.pathname)
               window.open(window.location.pathname + `/${genre}/`, "_self");
           })
   
