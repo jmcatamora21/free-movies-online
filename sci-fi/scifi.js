@@ -330,7 +330,7 @@ $(document).ready(function() {
 
     $(".logo-container, .home").click(function(event){
         event.stopImmediatePropagation();
-        window.open(baseUrl, "_self");
+        window.open(baseUrl + "/free-movies-online", "_self");
     })
 
     $(".show-options > div").click(function(event){
