@@ -417,15 +417,15 @@ $(document).ready(function() {
     $(".side-bar ul li, header ul li").click(function(event){
         event.stopImmediatePropagation();
         let t =$(this).data('type');
-        
+
         if (t == 'movies') {
-            window.open(baseUrl + "free-movies-online/movies/", "_self");
+            window.open(baseUrl + "/free-movies-online/movies/", "_self");
         } else if (t == "series"){
-            window.open(baseUrl + "free-movies-online/series/", "_self");
+            window.open(baseUrl + "/free-movies-online/series/", "_self");
         } else if (t == "home"){
-            window.open(baseUrl + "free-movies-online/", "_self");
+            window.open(baseUrl + "/free-movies-online/", "_self");
         } else if (t == "privacy"){
-            window.open(baseUrl + "free-movies-online/privacy-policy/", "_self");
+            window.open(baseUrl + "/free-movies-online/privacy-policy/", "_self");
         }
     })
 
