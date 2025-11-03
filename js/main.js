@@ -399,9 +399,10 @@ name: 'horror'}, {genre: 'Korean', name: 'korean'}, {genre: 'Sci-Fi', name:
             </div>`);
 
           $(".main > div").click(function(event){
+         
               event.stopImmediatePropagation();
               let genre = $(this).data("genre");
-              window.open(`/${genre}/`, "_self");
+              window.open(baseUrl + `/${genre}/`, "_self");
           })
   
       // Now you can do something with the image URLs, such as displaying them
