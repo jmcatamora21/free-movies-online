@@ -418,13 +418,13 @@ $(document).ready(function() {
         event.stopImmediatePropagation();
         let t =$(this).data('type');
         if (t == 'movies') {
-            window.open(baseUrl + "/movies/", "_self");
+            window.open(window.location.pathname + "movies/", "_self");
         } else if (t == "series"){
-            window.open(baseUrl + "/series/", "_self");
+            window.open(window.location.pathname + "series/", "_self");
         } else if (t == "home"){
-            window.open(baseUrl, "_self");
+            window.open("../", "_self");
         } else if (t == "privacy"){
-            window.open(baseUrl + "/privacy-policy/", "_self");
+            window.open(window.location.pathname + "privacy-policy/", "_self");
         }
     })
 
