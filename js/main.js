@@ -419,13 +419,13 @@ $(document).ready(function() {
         let t =$(this).data('type');
         alert('test')
         if (t == 'movies') {
-            window.open(window.location.pathname + "movies/", "_self");
+            window.open(baseUrl + "free-movies-online/movies/", "_self");
         } else if (t == "series"){
-            window.open(window.location.pathname + "series/", "_self");
+            window.open(baseUrl + "free-movies-online/series/", "_self");
         } else if (t == "home"){
-            window.open("../", "_self");
+            window.open(baseUrl + "free-movies-online/", "_self");
         } else if (t == "privacy"){
-            window.open(window.location.pathname + "privacy-policy/", "_self");
+            window.open(baseUrl + "free-movies-online/privacy-policy/", "_self");
         }
     })
 
