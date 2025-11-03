@@ -417,7 +417,7 @@ $(document).ready(function() {
     $(".side-bar ul li, header ul li").click(function(event){
         event.stopImmediatePropagation();
         let t =$(this).data('type');
-        alert('test')
+        
         if (t == 'movies') {
             window.open(baseUrl + "free-movies-online/movies/", "_self");
         } else if (t == "series"){
