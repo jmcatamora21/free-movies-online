@@ -70,6 +70,7 @@ body {
   animation-duration: .5s;
   animation-fill-mode: forwards;
   animation-delay: 2s;
+  display: none;
 }
 @keyframes notif{
   from {
@@ -422,7 +423,7 @@ footer .footer-img img {
     place-items: center;
 }
 .search-window > div {
-    width: 20vw;
+    width: 300px;
     display: flex;
     align-items: center;
     position: relative;
@@ -434,6 +435,8 @@ footer .footer-img img {
     bottom: -70px;
     left: 0;
 }
+
+
 .search-window div > div div{
     width: 50%;
     padding: 7px;
@@ -533,6 +536,7 @@ footer .footer-img img {
         background-color: var(--orange);
         color: #fff;
         cursor: pointer;
+        display: none !important;
     }
     .watch-window > div .change-server-button{
         position: absolute;
@@ -543,6 +547,7 @@ footer .footer-img img {
         background-color: var(--orange);
         color: #fff;
         cursor: pointer;
+        display: none;
     }
     .watch-window > div iframe{
         width: 100%;
@@ -681,6 +686,7 @@ footer .footer-img img {
         background-color: var(--orange);
         color: #fff;
         cursor: pointer;
+        display: none;
     }
     .watch-window > div .change-server-button{
         position: absolute;
@@ -690,6 +696,7 @@ footer .footer-img img {
         background-color: var(--orange);
         color: #fff;
         cursor: pointer;
+        display: none;
     }
     .watch-window > div iframe{
         width: 100%;
